@@ -1,0 +1,741 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* navigation */
+
+nav{
+    background:linear-gradient(80deg,rgb(22, 179, 252),cyan);
+    padding:17px 0px;
+    background-attachment:fixed;
+}
+
+nav img{
+    width:50%;
+}
+
+.navbar-default .navbar-nav li a{
+    color:#fff;
+    font-size:16px;
+    font-weight:700;
+}
+
+.navbar-default .navbar-nav li a:hover{
+    color:#fff;
+    border-bottom:4px solid #fff;
+}
+
+/* carousal */
+
+.bck-img{
+    position:relative;
+    margin-top:-22px;
+}
+
+.bck-img h1{
+    font-size:50px;
+    font-weight:600;
+    margin-top:-10px;
+}
+
+.bck-img .btn1{
+    width:170px;
+    height:50px;
+    background:linear-gradient(80deg,rgb(104, 195, 236),cyan);
+    border:0px;
+    border-radius:50px;
+    color:#fff;
+    font-weight:800;
+    font-size:17px;
+}
+
+.bck-img .btn2{
+    width:170px;
+    height:50px;
+    background:transparent;
+    border:2px solid #fff;
+    border-radius:50px;
+    color:#fff;
+    font-weight:800;
+    font-size:17px;
+    margin-left:10px;
+}
+
+.bck-img .btn2:hover{
+    background-color:#a5a3a3d5;
+}
+
+.bck-img .btn1:hover{
+    background:linear-gradient(80deg,cyan,rgb(104, 195, 236));
+}
+
+/*img-section*/
+
+.wrapper{
+    background-color:#eceaea;
+    margin-top:-20px;
+}
+
+.center{
+    text-align:center;
+   
+}
+
+.img{
+    text-align:center;
+    margin-top:70px;
+}
+
+.center h1{
+    font-size:40px;
+    font-weight:600;
+    color:black;
+    word-spacing: 10px;
+}
+
+.center p{
+    color:black;
+    font-size:18px;
+    font-weight:400;
+}
+
+.row-1{
+    margin-top:50px;
+    margin-bottom:20px;
+}
+
+.wrapper{
+    padding-bottom:70px;
+}
+
+.wrapper .row-1 h2,.row-2 h2{
+    color:black;
+    font-size:22px;
+    font-weight:600;
+}
+
+/*portfolio section*/
+
+.portfolio-heading{
+    text-align:center;
+   
+}
+
+.portfolio-heading h1{
+    color:black;
+    font-size:45px;
+    font-weight:400;
+}
+
+.portfolio-heading p{
+    color:rgb(65, 63, 63);
+    font-size:15px;
+    font-weight:400;
+    margin-top:30px;
+}
+
+/* list part */
+
+.portfolio-section ul{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  list-style:none;
+  margin-top:30px;
+  margin-bottom:40px;
+}
+
+.portfolio-section ul li{
+    font-size:18px;
+    color:rgb(92, 91, 91);
+    font-weight:600;
+}
+
+.portfolio-section li:hover{
+    color:cyan;
+    border-bottom: 3px solid cyan;
+    cursor: pointer;
+}
+
+.portfolio-section .act{
+    color:cyan;
+    border-bottom: 3px solid cyan;
+    
+}
+
+.portfolio img{
+   border-radius:10px;
+}
+
+.portfolio h2{
+    font-size:26px;
+    font-weight:600;
+    color:black;
+}
+
+.three-img{
+    margin-top:20px;
+    margin-bottom:80px;
+}
+
+.portfolio-section{
+    padding:80px 0px;
+}
+
+
+/* plan section */
+
+.plan{
+    padding:80px 0px;
+    background-color:#eceaea;
+}
+
+.plan .box-1{
+    background-color:#fff;
+    border-radius:9px;
+    text-align:center;
+    padding:20px 0px 40px 0px;
+    box-shadow:5px 5px 10px gray;
+} 
+
+.plan .box-1 span{
+    text-align: left;
+}
+
+.plan .box-1 p{
+    text-align: left;
+}
+
+.plan .box-1 .p-type{
+    font-size:19px;
+    color:grey;
+    font-weight:400;
+}
+
+.plan .box-1 .glyphicon{
+    color:cyan;
+    font-size:20px;
+    font-weight:100;
+    margin:0px 10px 0px 16px;
+}
+
+.plan .box-1 h2{
+    color:black;
+    font-size:20px;
+    font-weight:600;
+    margin-top:30px;
+}
+
+.plan .box-1 h1{
+    color:black;
+    margin-bottom:30px;
+}
+
+.plan .box-1 p{
+    color:rgb(36, 35, 35);
+    font-size:17px;
+   
+}
+
+.plan .btn1{
+    width:170px;
+    height:52px;
+    background:linear-gradient(80deg,rgb(104, 195, 236),cyan);
+    border:0px;
+    border-radius:50px;
+    color:#fff;
+    font-weight:800;
+    font-size:17px;
+    margin-top:20px;
+}
+
+.plan .btn1:hover{
+    background:linear-gradient(80deg,cyan,rgb(104, 195, 236));
+}
+
+
+/* email */
+
+.mail{
+    padding:60px 0px 60px 0px;
+}
+
+.mail .rounded-e input{
+    padding:20px 50% 20px 10px;
+    border-radius: 34px;
+    border:2px solid cyan;
+   
+}
+
+.mail .btn1{
+    display:block;
+    text-align: center;
+    margin-left:26%;
+    width:170px;
+    height:52px;
+    background:linear-gradient(80deg,rgb(104, 195, 236),cyan);
+    border:0px;
+    border-radius:50px;
+    color:#fff;
+    font-weight:800;
+    font-size:17px;
+    margin-top:20px;
+}
+
+.mail .btn1:hover{
+    background:linear-gradient(80deg,cyan,rgb(104, 195, 236));
+}
+
+.mail h1{
+    color:black;
+}
+
+.mail p{
+    color:black;
+    font-size:16px;
+}
+
+/* testimonial part */
+
+.testimonial{
+    background-color:#eceaea ;
+    display:flex;
+    justify-content: space-between;
+    padding:60px 0px;
+}
+
+.testimonial ol{
+    
+}
+
+.testimonial .tex{
+    text-align:center;
+    
+    margin-bottom:30px;
+}
+
+.testimonial .tex p{
+    margin-top:25px;
+}
+
+.testimonial .cr-1{
+    background-color: #fff;
+    text-align:center;
+}
+
+.testimonial .cr-3{
+    text-align:center;
+}
+
+.testimonial .cr-3 .inner{
+    background-color:#fff;
+    padding:20px 0px;
+    box-shadow:5px 5px 10px rgb(216, 215, 215);
+}
+
+.testimonial .cr-3 .inner img{
+    border-radius:100%;
+
+}
+
+.testimonial .cr-3 .inner p{
+    font-size:16px;
+    color:rgb(26, 24, 24);
+    margin:30px 20px;
+}
+
+.testimonial .cr-3 .inner h4{
+    color:black;
+}
+
+.testimonial .cr-3 .inner h5{
+    color:rgb(160, 158, 158);
+    font-size:14px;
+}
+
+.testimonial .cr-3 .inner hr{
+    margin:0px 30px;
+}
+
+
+
+
+
+
+
+/* marquee tag */
+
+.marquee marquee img{
+    width:20%;
+    margin-right:30px;
+}
+
+.marquee{
+   padding:40px 0px;
+}
+
+
+/* User detail */
+.user .portfolio-heading p{
+    color:gray;
+    font-size:16px;
+    margin-bottom:50px;
+}
+
+.user{
+    background-color:#eceaea ;
+    padding:50px 0px;
+}
+
+.user .contact h2{
+    color:black;
+    font-size:27px;
+    font-weight:600;
+}
+
+.user .contact p{
+    font-size:17px;
+    color:rgb(99, 97, 97);
+    margin-bottom:43px;
+}
+
+.user .contact a{
+    display:block;
+    color:rgb(99, 97, 97);
+    font-size:19px;
+    margin-top:8px;
+}
+
+.user .form input{
+    padding:10px 270px 10px 6px;
+    border:2px solid rgb(150, 148, 148);
+}
+
+.user .form h5{
+    margin-top: 20px;
+    color:rgb(138, 135, 135);
+}
+
+.user .form .msg{
+    padding-bottom:100px;
+}
+
+.form .btn1{
+    display:block;
+    width:120px;
+    height:52px;
+    background:linear-gradient(80deg,rgb(104, 195, 236),cyan);
+    border:0px;
+    border-radius:50px;
+    color:#fff;
+    font-weight:800;
+    font-size:17px;
+    margin-top:30px;
+}
+                         
+.form .btn1:hover{
+    background:linear-gradient(80deg,cyan,rgb(104, 195, 236));
+  
+}
+
+ 
+/* Last block */
+
+.l-block{
+    padding:90px 0px 30px 0px;
+}
+
+.facility{
+    margin-bottom:130px;
+}
+
+.facility a{
+    display:block;
+    text-decoration:none;
+    color:rgb(63, 63, 63);
+    font-weight:600;
+    font-size:17px;
+    margin-bottom:12px;
+}
+
+.facility a:hover{
+    color:rgb(20, 247, 247);
+}
+
+.facility .company h5{
+    color:rgb(126, 123, 123);
+    font-size:16px;
+    font-weight:600;
+    margin-bottom:24px;
+}
+
+.footer p{
+    color:black;
+    font-size:16px;
+    font-weight:400;
+}
+
+.footer .cyan{
+    color:cyan;
+}
+
+.footer .c-im{
+    text-align:center;
+}
+
+.footer .social a{
+    margin-right:20px;
+    text-decoration:none;
+    font-size:25px;
+    
+    color:rgb(99, 98, 98);
+}
+
+.footer a:hover{
+    text-decoration:none;
+    color:cyan;
+}
+
+
+@media only screen and (max-width:1200px){
+
+    .wrapper{
+        
+        margin-top:-90px;
+    }
+
+    nav{
+        background:linear-gradient(80deg,rgb(22, 179, 252),cyan);
+        padding:10px 0px;
+        background-attachment:fixed;
+    }
+
+    .plan{
+        padding:40px 0px;
+        background-color:#eceaea;
+    }
+
+    .plan .portfolio-heading p{
+        margin-bottom:30px;
+    }
+
+    .box-1{
+        margin-bottom:30px;
+    }
+
+}
+
+@media only screen and (max-width:990){
+
+    nav{
+        background:linear-gradient(80deg,rgb(22, 179, 252),cyan);
+        padding:0px 0px;
+        background-attachment:fixed;
+    }
+
+    .plan .box-1{
+      margin-top:50px;
+    } 
+
+    .portfolio-heading h1{
+        font-size:14px;
+    }
+
+
+}
+
+@media only screen and (max-width:900px){
+
+    nav{
+       
+        padding:0px 0px;
+      
+    }
+
+    .plan .box-1{
+       margin-top:100px;
+    } 
+
+   
+    nav img{
+        width:50%;
+    }
+
+    .bck-img .carousel-caption h1{
+        font-size:33px;
+       
+    }
+
+    #carousel-example-generic{
+        position:relative;
+        margin-top:-22px;
+    }
+
+    .bck-img .btn1{
+        width:130px;
+        height:40px;
+        font-size:15px;
+    }
+    
+    .bck-img .btn2{
+        width:130px;
+        height:40px;
+        font-size:15px;
+        margin-left:10px;
+    }
+
+    .box-1{
+        margin-bottom:10px;
+    }
+
+    .plan{
+        padding:40px 0px;
+        background-color:#eceaea;
+    }
+
+    .plan .portfolio-heading p{
+        margin-bottom:30px;
+    }
+
+}
+
+
+@media only screen and (max-width:500px){
+    nav img{
+        width:30%;
+    }
+
+    .bck-img .carousel-caption h1{
+        font-size:15px;
+    }
+
+    .bck-img .btn1{
+        width:100px;
+        height:30px;
+        font-size:12px;
+    }
+    
+    .bck-img .btn2{
+        width:100px;
+        height:30px;
+        font-size:12px;
+        margin-left:10px;
+       
+    }
+
+    #carousel-example-generic{
+        position:relative;
+        margin-top:-22px;
+    }
+
+    .center h1{
+        font-size:30px;
+        font-weight:600;
+        color:black;
+        word-spacing: 10px;
+    }
+
+    .center p{
+        color:black;
+        font-size:15px;
+        font-weight:400;
+    }
+
+    .row-1 .text h2{
+        font-size:18px;
+    }
+
+    .row-2 .text h2{
+        font-size:18px;
+    }
+
+    .row-1 .text p{
+        font-size:13px;
+    }
+
+    .row-2 .text p{
+        font-size:13px;
+    }
+
+    .portfolio-heading h1{
+        color:black;
+        font-size:33px;
+        font-weight:400;
+    }
+
+    .portfolio-heading p{
+        font-size:14px;
+    }
+
+    .user .form input{
+        padding:10px 180px 10px 6px;
+    }
+
+}
+
+@media only screen and (max-width:400px){
+     .carousel-caption .btn1{
+         display:none;
+     }
+
+     .carousel-caption .btn2{
+        display:none;
+    }
+
+    .user .form input{
+        padding:10px 150px 10px 6px;
+    }
+
+    .mail .rounded-e input{
+        padding:20px 40% 20px 10px;
+    }
+}
+
+
+@media only screen and (max-width:750px){
+
+    .facility .company h5{
+        
+          font-size:16px;
+          font-weight:600;
+          margin-bottom:20px;
+         
+      }
+
+    .facility .company a{
+        font-weight:300;
+    }
+
+    .facility .company{
+        margin-bottom:40px;
+    }
+
+    .footer{
+        text-align:center;
+    }
+
+}
+
+@media only screen and (max-width:600px){
+
+    .portfolio-section ul{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        align-items: center;
+        list-style:none;
+        margin-top:30px;
+        margin-bottom:40px;
+        
+    }
+      
+
+}
